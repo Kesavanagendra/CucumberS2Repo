@@ -24,8 +24,8 @@ options.addArguments("--disable-dev-shm-usage"); // overcome limited resource pr
 options.addArguments("--no-sandbox"); // Bypass OS security model
 
 		
-options.add_argument('--ignore-ssl-errors=yes')
-options.add_argument('--ignore-certificate-errors')
+options.add_argument('--ignore-ssl-errors=yes');
+options.add_argument('--ignore-certificate-errors');
 		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
